@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { HeroSection } from '../collections';
+import { HeroSection, OurWork } from '../collections';
 import { Navbar, Button } from '../components';
 
 export default function Home() {
@@ -19,9 +19,11 @@ export default function Home() {
           <HeroSection />
         </div>
       </div>
-
-      {/* Another section here */}
       
+      <section className='py-[90px] container mx-auto'>
+        <OurWork />
+      </section>
+
       <h1>Here is me</h1>
       <h1>Here is me</h1>
       <h1>Here is me</h1>
