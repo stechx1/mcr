@@ -26,3 +26,7 @@ a {
 .infrastructure-img{
   background-image: url("/images/Infrastructure.webp");
 }
+
+.company-img{
+  background-image: url("/images/company.webp");
+}
