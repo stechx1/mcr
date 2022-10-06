@@ -11,40 +11,20 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='h-screen bg-fixed bg-center bg-cover custom-img'>
-        <Navbar />
-        {/* <video class="absolute z-10 w-auto min-w-full min-h-full max-w-none" autoplay muted loop id='myVideo'>
+        <div className='bg-black h-screen bg-opacity-50'>
+          <Navbar />
+          {/* <video class="absolute z-10 w-auto min-w-full min-h-full max-w-none" autoplay muted loop id='myVideo'>
           <source src='/videos/video.mp4' type='video/mp4' />
         </video> */}
-        <div className='h-[70vh] flex items-center container mx-auto'>
-          <HeroSection />
+          <div className='h-[70vh] flex items-center container mx-auto'>
+            <HeroSection />
+          </div>
         </div>
       </div>
-      
+
       <section className='py-[90px] container mx-auto'>
         <OurWork />
       </section>
-
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
-      <h1>Here is me</h1>
     </div>
   );
 }
