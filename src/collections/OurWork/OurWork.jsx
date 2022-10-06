@@ -1,5 +1,6 @@
 import { Button } from '../../components';
 import { Commercial } from './Commerical/Commercial';
+import { Infrastructure } from './Infrastructure/Infrastructure';
 
 export const OurWork = () => {
   return (
@@ -12,6 +13,7 @@ export const OurWork = () => {
         <Button type={'primary'}>Read More</Button>
       </div>
       <Commercial />
+      <Infrastructure />
     </div>
   );
 };
