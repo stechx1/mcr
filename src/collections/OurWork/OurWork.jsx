@@ -1,6 +1,7 @@
 import { Button } from '../../components';
 import { Commercial } from './Commerical/Commercial';
 import { Infrastructure } from './Infrastructure/Infrastructure';
+import { Residential } from './Residential/Residential';
 
 export const OurWork = () => {
   return (
@@ -14,6 +15,7 @@ export const OurWork = () => {
       </div>
       <Commercial />
       <Infrastructure />
+      <Residential />
     </div>
   );
 };
