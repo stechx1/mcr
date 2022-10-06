@@ -1,4 +1,5 @@
 import { Button } from '../../components';
+import { InfoBar } from '../InfoBar/InfoBar';
 import { Commercial } from './Commerical/Commercial';
 import { Infrastructure } from './Infrastructure/Infrastructure';
 import { Residential } from './Residential/Residential';
@@ -6,13 +7,12 @@ import { Residential } from './Residential/Residential';
 export const OurWork = () => {
   return (
     <div>
-      <p className='text-[22px]'>Building is what we do</p>
-      <div className='flex justify-between items-start'>
-        <h2 className='text-[45px] max-w-[600px] text-[#ff5521] font-bold'>
-          MCR Construction Is Leading Quality Projects
-        </h2>
-        <Button type={'primary'}>Read More</Button>
-      </div>
+      <InfoBar
+        subheading={'Building is what we do'}
+        heading='MCR Construction Is Leading Quality Projects'
+        button={true}
+        buttonText='Read More'
+      />
       <Commercial />
       <Infrastructure />
       <Residential />
