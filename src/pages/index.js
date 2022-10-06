@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { HeroSection } from '../collections';
 import { Navbar, Button } from '../components';
 
 export default function Home() {
@@ -15,16 +16,12 @@ export default function Home() {
           <source src='/videos/video.mp4' type='video/mp4' />
         </video> */}
         <div className='h-[70vh] flex items-center container mx-auto'>
-          <div >
-            <h1 className='text-[110px] text-white font-extrabold leading-tight'>Building a concrete future</h1>
-            <p className='text-white text-[40px]'>Honest, Reliable Builders since 1968</p>
-            <div className='flex space-x-4 pt-5'>
-              <Button type="primary">View Projects</Button>
-              <Button>Contact Us</Button>
-            </div>
-          </div>
+          <HeroSection />
         </div>
       </div>
+
+      {/* Another section here */}
+      
       <h1>Here is me</h1>
       <h1>Here is me</h1>
       <h1>Here is me</h1>
