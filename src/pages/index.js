@@ -2,6 +2,7 @@ import Head from 'next/head';
 import {
   AboutCompany,
   HeroSection,
+  OurClients,
   OurProjects,
   OurServices,
   OurWork,
@@ -42,6 +43,10 @@ export default function Home() {
 
       <section>
         <OurProjects />
+      </section>
+
+      <section>
+        <OurClients />
       </section>
     </div>
   );
