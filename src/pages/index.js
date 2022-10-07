@@ -1,5 +1,10 @@
 import Head from 'next/head';
-import { AboutCompany, HeroSection, OurWork } from '../collections';
+import {
+  AboutCompany,
+  HeroSection,
+  OurServices,
+  OurWork,
+} from '../collections';
 import { Navbar, Button } from '../components';
 
 export default function Home() {
@@ -27,7 +32,11 @@ export default function Home() {
       </section>
 
       <section>
-        <AboutCompany/>
+        <AboutCompany />
+      </section>
+
+      <section>
+        <OurServices />
       </section>
 
       <p>hi</p>
