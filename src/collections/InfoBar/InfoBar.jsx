@@ -1,6 +1,13 @@
 import { Button } from '../../components';
 
-export const InfoBar = ({ subheading, heading, button, buttonText }) => {
+export const InfoBar = ({
+  subheading,
+  heading,
+  button,
+  buttonText,
+  para,
+  paraText,
+}) => {
   return (
     <>
       <p className='text-[22px]'>{subheading}</p>
@@ -10,6 +17,7 @@ export const InfoBar = ({ subheading, heading, button, buttonText }) => {
         </h2>
         {button && <Button type={'primary'}>{buttonText}</Button>}
       </div>
+      {para && <p className='py-2 max-w-[500px]'>{paraText}</p>}
     </>
   );
 };

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import {
   AboutCompany,
   HeroSection,
+  OurProjects,
   OurServices,
   OurWork,
 } from '../collections';
@@ -39,23 +40,9 @@ export default function Home() {
         <OurServices />
       </section>
 
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
-      <p>hi</p>
+      <section>
+        <OurProjects />
+      </section>
     </div>
   );
 }
